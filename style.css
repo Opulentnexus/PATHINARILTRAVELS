@@ -19,6 +19,14 @@ body {
 }
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
 /* ===== HEADER ===== */
 .header {
   position: fixed;
@@ -1432,5 +1440,6 @@ img {
   .footer-links {
     gap: 15px;
   }
+
 
 }
