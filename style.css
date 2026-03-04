@@ -13,12 +13,6 @@ body {
 }
 
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -26,6 +20,13 @@ html {
 section {
   scroll-margin-top: 80px;
 }
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* ===== HEADER ===== */
 .header {
@@ -358,6 +359,18 @@ section {
     
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
     overflow: hidden;
+}
+
+
+.service-category p {
+    font-size: 15px;
+      font-family: "Montserrat", sans-serif;
+    color: #475569;
+    margin-bottom: 12px;
+    line-height: 1.1;
+    text-align: left;
+    padding-left: 10px;
+
 }
 
 /* ===============================
@@ -1440,6 +1453,5 @@ img {
   .footer-links {
     gap: 15px;
   }
-
 
 }
