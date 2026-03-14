@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const packageItem = this.closest(".package-item");
       const packageName = packageItem.querySelector("h4").innerText;
 
-      const phoneNumber = "919061684945"; // your number
+      const phoneNumber = "918547562425"; // your number
       const message = `Hello, I am interested in the package: ${packageName}`;
       const encodedMessage = encodeURIComponent(message);
 
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const packageItem = this.closest(".vehicle-item");
       const packageName = packageItem.querySelector("h4").innerText;
 
-      const phoneNumber = "919061684945"; // your number
+      const phoneNumber = "918547562425"; // your number
       const message = `Hello, I am interested in the car: ${packageName}`;
       const encodedMessage = encodeURIComponent(message);
 
@@ -109,4 +109,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
   });
+
 
